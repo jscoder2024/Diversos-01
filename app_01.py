@@ -7,10 +7,10 @@ import random
 # Função para conectar ao banco de dados PostgreSQL
 def connect_db():
     return psycopg2.connect(
-        dbname="admin",
-        user="joshe",
-        password="eu141521",
-        host="localhost"
+        dbname=" **** ",
+        user=" ***** ",
+        password=" **** ",
+        host=" **** "
     )
 
 # Função para gerar uma chave de criptografia
